@@ -11,7 +11,7 @@
   "preseed" : "preseedV1604.cfg",
   "hostname": "vagrant-xenial64",
   "ssh_fullname": "ubuntu",
-  "ssh_password": "NusRuo3i3dAq",
+  "ssh_password": "ubuntu",
   "ssh_username": "ubuntu",
   "update": "true",
   "vagrantfile_template": "tpl/vagrantfile-ubuntu1604.tpl",
