@@ -1,12 +1,12 @@
 {
-  "_comment": "Build with `packer build -var-file=ubuntu1604.json ubuntu.json`",
-  "vm_name": "ubuntu1604",
+  "_comment": "Build with `packer build -var-file=ubuntu1604-ex.json ubuntu.json`",
+  "vm_name": "ubuntu1604-ex",
   "cpus": "2",
-  "disk_size": "40000",
-  "iso_checksum": "f3532991e031cae75bcf5e695afb844dd278fff9",
+  "disk_size": "70000",
+  "iso_checksum": "ee834fbeb94cc55972b38caafa2029c29625e2e8",
   "iso_checksum_type": "sha1",
-  "iso_name": "ubuntu-16.04.3-server-amd64.iso",
-  "iso_url": "http://releases.ubuntu.com/16.04/ubuntu-16.04.3-server-amd64.iso",
+  "iso_name": "ubuntu-16.04.4-server-amd64.iso",
+  "iso_url": "http://releases.ubuntu.com/16.04/ubuntu-16.04.4-server-amd64.iso",
   "memory": "3072",
   "preseed" : "preseedV1604.cfg",
   "hostname": "vagrant-xenial64",
@@ -15,5 +15,5 @@
   "ssh_username": "ubuntu",
   "update": "true",
   "vagrantfile_template": "tpl/vagrantfile-ubuntu1604.tpl",
-  "version": "0.1.3"
+  "version": "0.1.4"
 }
